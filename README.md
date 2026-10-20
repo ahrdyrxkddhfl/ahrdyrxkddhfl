@@ -1,15 +1,10 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="황도희 · Data Engineer · Chemistry × Data × Security"/>
+<img src="assets/header.svg" width="100%" alt="황도희 · 이화여자대학교 화학·나노과학과 졸업(소프트웨어 융합연계전공 복수전공) · SKALA 4기 · 한국인터넷진흥원(KISA) AI 보안관제 전문인력 양성과정 8기 수료 · Data Engineer: Chemistry, Data, Security"/>
 
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tagline-dark.svg"><img src="assets/tagline-light.svg" width="100%" alt="AI와 사람이 믿고 쓸 수 있는 데이터를 만드는 엔지니어입니다."/></picture>
-
-<sub>이화여자대학교 화학·나노과학과 졸업 (소프트웨어 융합연계전공 복수전공)</sub><br>
-<sub>SKALA 4기 AI·데이터 과정 수강 중 · 한국인터넷진흥원(KISA) AI 보안관제 전문인력 양성과정 8기 수료</sub>
-
-<br>
 
 <a href="mailto:s2nardh@gmail.com"><img src="https://img.shields.io/badge/s2nardh@gmail.com-0f1c33?style=flat-square&logo=gmail&logoColor=5eead4"/></a>
 
