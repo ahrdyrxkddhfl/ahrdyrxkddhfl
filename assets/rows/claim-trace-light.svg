@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96">
+  <defs><clipPath id="c"><rect x="1" y="1" width="1198" height="94" rx="12"/></clipPath></defs>
+  <rect x="1" y="1" width="1198" height="94" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+  <rect x="1" y="1" width="5" height="94" fill="#2dd4bf" clip-path="url(#c)"/>
+  <text x="32" y="42" font-family="'SFMono-Regular','JetBrains Mono','Consolas','Menlo',monospace" font-size="20" font-weight="700" fill="#1f2328"><tspan fill="#0d9488">[</tspan>claim-trace<tspan fill="#0d9488">]</tspan></text>
+  <rect x="201.3" y="25" width="45.8" height="22" rx="11" fill="#0d9488" fill-opacity="0.08" stroke="#0d9488" stroke-opacity="0.5"/><text x="224.2" y="40" text-anchor="middle" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#0d9488">Solo</text>
+  <text x="32" y="74" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',sans-serif" font-size="16" fill="#57606a">AI 보험금 심사 근거 추적 시스템 · Java · Spring Boot</text>
+  <line x1="960" y1="22" x2="960" y2="74" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="1170" y="52" text-anchor="end" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="800" fill="#0d9488">102</text>
+  <text x="1170" y="76" text-anchor="end" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',sans-serif" font-size="13" fill="#57606a">테스트</text>
+</svg>

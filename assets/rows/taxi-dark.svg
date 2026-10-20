@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96">
+  <defs><clipPath id="c"><rect x="1" y="1" width="1198" height="94" rx="12"/></clipPath></defs>
+  <rect x="1" y="1" width="1198" height="94" rx="12" fill="#0f1c33" stroke="#22385a" stroke-width="1.5"/>
+  <rect x="1" y="1" width="5" height="94" fill="#2dd4bf" clip-path="url(#c)"/>
+  <text x="32" y="42" font-family="'SFMono-Regular','JetBrains Mono','Consolas','Menlo',monospace" font-size="20" font-weight="700" fill="#f1f5f9"><tspan fill="#5eead4">[</tspan>taxi<tspan fill="#5eead4">]</tspan></text>
+  <rect x="116.6" y="25" width="80.6" height="22" rx="11" fill="#c4b5fd" fill-opacity="0.14" stroke="#c4b5fd" stroke-opacity="0.5"/><text x="156.9" y="40" text-anchor="middle" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#c4b5fd">Team of 6</text>
+  <text x="32" y="74" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',sans-serif" font-size="16" fill="#b6c2d3">NYC 로보택시 배차 전략 · 모델 파트 총괄 · scikit-learn</text>
+  <line x1="960" y1="22" x2="960" y2="74" stroke="#22385a" stroke-width="1.5"/>
+  <text x="1170" y="52" text-anchor="end" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="800" fill="#5eead4">388만</text>
+  <text x="1170" y="76" text-anchor="end" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',sans-serif" font-size="13" fill="#b6c2d3">운행 데이터</text>
+</svg>
