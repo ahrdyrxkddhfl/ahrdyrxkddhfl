@@ -24,7 +24,7 @@
 <td align="center" width="80"><img src="https://skillicons.dev/icons?i=python" width="40"/><br><sub>Python</sub></td>
 <td align="center" width="80"><img src="https://skillicons.dev/icons?i=java" width="40"/><br><sub>Java</sub></td>
 <td align="center" width="80"><img src="https://skillicons.dev/icons?i=postgres" width="40"/><br><sub>PostgreSQL</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=kafka" width="40"/><br><sub>Kafka</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=kafka" width="40"/><br><sub>Kafka (Redpanda)</sub></td>
 <td align="center" width="80"><img src="https://skillicons.dev/icons?i=docker" width="40"/><br><sub>Docker</sub></td>
 </tr>
 <tr>
