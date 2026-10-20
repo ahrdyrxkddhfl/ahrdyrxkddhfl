@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64">
+  <defs>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0%" stop-color="#5eead4" stop-opacity="0"/><stop offset="100%" stop-color="#5eead4" stop-opacity="0.9"/></linearGradient>
+    <linearGradient id="r" x1="0" x2="1"><stop offset="0%" stop-color="#5eead4" stop-opacity="0.9"/><stop offset="100%" stop-color="#5eead4" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="110" y="31" width="150" height="2" fill="url(#l)"/>
+  <rect x="940" y="31" width="150" height="2" fill="url(#r)"/>
+  <text x="600" y="40" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#e6edf3">AI와 사람이 믿고 쓸 수 있는 데이터를 만드는 엔지니어입니다.</text>
+</svg>
