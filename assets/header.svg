@@ -50,7 +50,6 @@
     <!-- bonds turning into data flow -->
     <path class="flow" d="M135,-26 C190,-60 230,-60 280,-60"/>
     <path class="flow" d="M135,26 C190,60 230,60 280,60"/>
-    <path class="flow" d="M135,0 L280,0" stroke-opacity="0.35"/>
   </g>
 
   <!-- table-like data blocks -->
