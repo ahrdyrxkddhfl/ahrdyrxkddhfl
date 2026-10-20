@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+  <defs>
+    <style>
+      .ko { font-family: 'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',sans-serif; }
+      .en { font-family: 'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif; }
+      .card { fill: #0f1c33; stroke: #22385a; stroke-width: 1.5; }
+      .title { font-size: 22px; font-weight: 700; fill: #f1f5f9; }
+      .desc { font-size: 16px; fill: #94a3b8; }
+      .ic { fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <clipPath id="cc"><rect x="1" y="1" width="386" height="186" rx="14"/></clipPath>
+  </defs>
+
+  <!-- card 1 -->
+  <g transform="translate(0,0)">
+    <rect class="card" x="1" y="1" width="386" height="186" rx="14"/>
+    <rect x="1" y="1" width="386" height="5" fill="#5eead4" clip-path="url(#cc)"/>
+    <circle cx="48" cy="56" r="22" fill="#5eead4" fill-opacity="0.12"/>
+    <g class="ic" stroke="#5eead4" transform="translate(48,56)">
+      <path d="M-10,-4 A11,11 0 0 1 9,-6"/><path d="M9,-6 l1,-6 m-1,6 l-6,0"/>
+      <path d="M10,4 A11,11 0 0 1 -9,6"/><path d="M-9,6 l-1,6 m1,-6 l6,0"/>
+    </g>
+    <text x="84" y="64" class="en title">Reliable Pipelines</text>
+    <text x="32" y="122" class="ko desc">재실행해도 결과가 같고</text>
+    <text x="32" y="148" class="ko desc">유실·중복 없이 적재되는 구조</text>
+  </g>
+
+  <!-- card 2 -->
+  <g transform="translate(406,0)">
+    <rect class="card" x="1" y="1" width="386" height="186" rx="14"/>
+    <rect x="1" y="1" width="386" height="5" fill="#7dd3fc" clip-path="url(#cc)"/>
+    <circle cx="48" cy="56" r="22" fill="#7dd3fc" fill-opacity="0.12"/>
+    <g class="ic" stroke="#7dd3fc" transform="translate(48,56)">
+      <rect x="-10" y="-11" width="20" height="22" rx="3"/>
+      <path d="M-5,0 l3.5,3.5 l6.5,-7"/>
+    </g>
+    <text x="84" y="64" class="en title">Data Quality</text>
+    <text x="32" y="122" class="ko desc">단계마다 검증 규칙을 두고</text>
+    <text x="32" y="148" class="ko desc">문제를 건수로 기록</text>
+  </g>
+
+  <!-- card 3 -->
+  <g transform="translate(812,0)">
+    <rect class="card" x="1" y="1" width="386" height="186" rx="14"/>
+    <rect x="1" y="1" width="386" height="5" fill="#c4b5fd" clip-path="url(#cc)"/>
+    <circle cx="48" cy="56" r="22" fill="#c4b5fd" fill-opacity="0.12"/>
+    <g class="ic" stroke="#c4b5fd" transform="translate(48,56)">
+      <path d="M0,-12 L10,-7 L10,1 C10,7 5,11 0,13 C-5,11 -10,7 -10,1 L-10,-7 Z"/>
+      <path d="M-4,0 l3,3 l5,-6"/>
+    </g>
+    <text x="84" y="64" class="en title">Security Background</text>
+    <text x="32" y="122" class="ko desc">KISA AI 보안관제 과정 수료</text>
+    <text x="32" y="148" class="ko desc">포렌식·바이너리 분석 프로젝트</text>
+  </g>
+</svg>
