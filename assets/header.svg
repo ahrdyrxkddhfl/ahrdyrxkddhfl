@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1324"/>
+      <stop offset="60%" stop-color="#12233f"/>
+      <stop offset="100%" stop-color="#173452"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.45">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .ko { font-family: 'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',sans-serif; }
+      .en { font-family: 'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif; }
+      .bond { stroke: #5eead4; stroke-width: 2; stroke-opacity: 0.55; fill: none; }
+      .flow { stroke: #7dd3fc; stroke-width: 2; stroke-opacity: 0.6; fill: none; stroke-dasharray: 6 7; }
+      .atom { fill: #0b1324; stroke: #5eead4; stroke-width: 2; }
+      .node { fill: #7dd3fc; }
+      .row { fill: #7dd3fc; fill-opacity: 0.18; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+
+  <!-- molecule: two fused hexagons -->
+  <g transform="translate(700,160)">
+    <polygon class="bond" points="0,-52 45,-26 45,26 0,52 -45,26 -45,-26"/>
+    <polygon class="bond" points="90,-52 135,-26 135,26 90,52 45,26 45,-26"/>
+    <line class="bond" x1="-45" y1="-26" x2="-85" y2="-50"/>
+    <line class="bond" x1="0" y1="52" x2="0" y2="96"/>
+    <line class="bond" x1="-8" y1="-38" x2="-8" y2="38" stroke-opacity="0.25"/>
+    <circle class="atom" cx="0" cy="-52" r="6"/>
+    <circle class="atom" cx="45" cy="-26" r="6"/>
+    <circle class="atom" cx="45" cy="26" r="6"/>
+    <circle class="atom" cx="0" cy="52" r="6"/>
+    <circle class="atom" cx="-45" cy="26" r="6"/>
+    <circle class="atom" cx="-45" cy="-26" r="6"/>
+    <circle class="atom" cx="90" cy="-52" r="6"/>
+    <circle class="atom" cx="135" cy="-26" r="6"/>
+    <circle class="atom" cx="135" cy="26" r="6"/>
+    <circle class="atom" cx="90" cy="52" r="6"/>
+    <circle class="atom" cx="-85" cy="-50" r="5"/>
+    <circle class="atom" cx="0" cy="96" r="5"/>
+
+    <!-- bonds turning into data flow -->
+    <path class="flow" d="M135,-26 C190,-60 230,-60 280,-60"/>
+    <path class="flow" d="M135,26 C190,60 230,60 280,60"/>
+    <path class="flow" d="M135,0 L280,0" stroke-opacity="0.35"/>
+  </g>
+
+  <!-- table-like data blocks -->
+  <g transform="translate(990,90)">
+    <rect x="0" y="0" width="150" height="140" rx="10" fill="#0b1324" stroke="#7dd3fc" stroke-opacity="0.5" stroke-width="2"/>
+    <rect x="0" y="0" width="150" height="26" rx="10" fill="#7dd3fc" fill-opacity="0.25"/>
+    <rect class="row" x="14" y="40" width="122" height="12" rx="4"/>
+    <rect class="row" x="14" y="62" width="96" height="12" rx="4"/>
+    <rect class="row" x="14" y="84" width="122" height="12" rx="4"/>
+    <rect class="row" x="14" y="106" width="70" height="12" rx="4"/>
+    <circle class="node" cx="0" cy="10" r="0"/>
+  </g>
+
+  <!-- text -->
+  <text x="72" y="132" class="ko" font-size="58" font-weight="700" fill="#f8fafc">황도희</text>
+  <text x="74" y="176" class="en" font-size="18" font-weight="700" letter-spacing="5" fill="url(#accent)">DATA ENGINEER</text>
+  <rect x="74" y="198" width="44" height="3" rx="1.5" fill="#5eead4"/>
+  <text x="74" y="236" class="en" font-size="20" fill="#cbd5e1">Chemistry <tspan fill="#5eead4">×</tspan> Data <tspan fill="#5eead4">×</tspan> Security</text>
+</svg>
