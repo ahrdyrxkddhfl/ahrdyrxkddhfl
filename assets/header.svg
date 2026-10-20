@@ -53,24 +53,35 @@
     <circle class="atom" cx="0" cy="96" r="5"/>
 
     <!-- bonds turning into data flow -->
-    <path class="flow" d="M135,-26 C190,-60 230,-60 280,-60"/>
-    <path class="flow" d="M135,26 C190,60 230,60 280,60"/>
+    <path class="flow" d="M135,-26 C170,-62 196,-62 230,-62"/>
+    <path class="flow" d="M135,26 C170,62 196,62 230,62"/>
   </g>
 
-  <!-- table-like data blocks -->
-  <g transform="translate(990,90)">
-    <rect x="0" y="0" width="150" height="140" rx="10" fill="#0b1324" stroke="#7dd3fc" stroke-opacity="0.5" stroke-width="2"/>
-    <rect x="0" y="0" width="150" height="26" rx="10" fill="#7dd3fc" fill-opacity="0.25"/>
-    <rect class="row" x="14" y="40" width="122" height="12" rx="4"/>
-    <rect class="row" x="14" y="62" width="96" height="12" rx="4"/>
-    <rect class="row" x="14" y="84" width="122" height="12" rx="4"/>
-    <rect class="row" x="14" y="106" width="70" height="12" rx="4"/>
-    <circle class="node" cx="0" cy="10" r="0"/>
+  <!-- identity table -->
+  <g transform="translate(930,58)">
+    <defs><clipPath id="tb"><rect x="0" y="0" width="220" height="204" rx="12"/></clipPath></defs>
+    <rect x="0" y="0" width="220" height="204" rx="12" fill="#0b1324" stroke="#7dd3fc" stroke-opacity="0.55" stroke-width="2"/>
+    <rect x="0" y="0" width="220" height="48" fill="#7dd3fc" fill-opacity="0.16" clip-path="url(#tb)"/>
+    <text x="110" y="30" text-anchor="middle" class="en" font-size="15" font-weight="800" letter-spacing="3" fill="url(#accent)">DATA ENGINEER</text>
+    <line x1="0" y1="100" x2="220" y2="100" stroke="#7dd3fc" stroke-opacity="0.18"/>
+    <line x1="0" y1="152" x2="220" y2="152" stroke="#7dd3fc" stroke-opacity="0.18"/>
+    <circle cx="30" cy="74" r="5" fill="#5eead4"/>
+    <text x="48" y="80" class="en" font-size="17" font-weight="600" fill="#e2e8f0">Chemistry</text>
+    <circle cx="30" cy="126" r="5" fill="#7dd3fc"/>
+    <text x="48" y="132" class="en" font-size="17" font-weight="600" fill="#e2e8f0">Data</text>
+    <circle cx="30" cy="178" r="5" fill="#c4b5fd"/>
+    <text x="48" y="184" class="en" font-size="17" font-weight="600" fill="#e2e8f0">Security</text>
   </g>
 
   <!-- text -->
-  <text x="72" y="132" class="ko" font-size="58" font-weight="700" fill="#f8fafc">황도희</text>
-  <text x="74" y="176" class="en" font-size="18" font-weight="700" letter-spacing="5" fill="url(#accent)">DATA ENGINEER</text>
-  <rect x="74" y="198" width="44" height="3" rx="1.5" fill="#5eead4"/>
-  <text x="74" y="236" class="en" font-size="20" fill="#cbd5e1">Chemistry <tspan fill="#5eead4">×</tspan> Data <tspan fill="#5eead4">×</tspan> Security</text>
+  <text x="72" y="112" class="ko" font-size="56" font-weight="700" fill="#f8fafc">황도희</text>
+  <rect x="74" y="134" width="44" height="3" rx="1.5" fill="#5eead4"/>
+  <circle cx="78" cy="171" r="2.5" fill="#5eead4"/>
+  <text x="90" y="176" class="ko" font-size="15" fill="#cbd5e1">이화여자대학교 화학·나노과학과 졸업</text>
+  <circle cx="78" cy="199" r="2.5" fill="#5eead4"/>
+  <text x="90" y="204" class="ko" font-size="15" fill="#cbd5e1">소프트웨어 융합연계전공 복수전공</text>
+  <circle cx="78" cy="227" r="2.5" fill="#5eead4"/>
+  <text x="90" y="232" class="ko" font-size="15" fill="#cbd5e1">SKALA 4기 AI·데이터 과정 수강 중</text>
+  <circle cx="78" cy="255" r="2.5" fill="#5eead4"/>
+  <text x="90" y="260" class="ko" font-size="15" fill="#cbd5e1">한국인터넷진흥원(KISA) AI 보안관제 전문인력 양성과정 8기 수료</text>
 </svg>
